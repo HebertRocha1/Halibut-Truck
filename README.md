@@ -1,6 +1,6 @@
-# 🐟 Halibut Truck
+#Halibut Truck
 
-Projeto final do bootcamp de **Padrões de Projeto (Design Patterns)**.
+Projeto final do bootcamp
 
 A proposta foi fugir do exemplo genérico de "Animal/Forma/Veículo" e construir
 um cenário único: o dia a dia de um **food truck de frutos do mar**, o
@@ -11,7 +11,7 @@ forma de pagamento e avisar cozinha e cliente sobre o andamento do pedido.
 O projeto foi criado do zero em **Java puro** (sem framework), aplicando 7
 padrões de projeto de forma integrada, não isolada.
 
-## 🍟 Padrões aplicados
+##Padrões aplicados
 
 | Padrão | Onde está | Problema que resolve |
 |---|---|---|
@@ -23,7 +23,7 @@ padrões de projeto de forma integrada, não isolada.
 | **Observer** | `observer/*` | Cozinha e painel do cliente são avisados automaticamente sempre que o status do pedido muda, sem acoplamento direto entre as partes. |
 | **Singleton** | `singleton/Caixa` | Garante um único caixa controlando o faturamento do dia, com acesso seguro mesmo em cenário concorrente. |
 
-## 📁 Estrutura
+##Estrutura
 
 ```
 halibut-truck/
@@ -42,7 +42,7 @@ halibut-truck/
     └── enums/                    # StatusPedido
 ```
 
-## ▶️ Como executar
+##Como executar
 
 ### Opção 1 — Maven
 
@@ -69,7 +69,7 @@ java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -cp out com.halibuttruck.Main
 > evitam que os acentos apareçam bugados no terminal. Rodando via Maven
 > (Opção 1) isso já vem configurado por padrão.
 
-## 💡 Exemplo de saída
+##Exemplo de saída
 
 ```
 Pedido montado para Joana:
@@ -86,15 +86,7 @@ Pagamento de R$ 87.90 no cartão final 4321 (com taxa da maquininha: R$ 90.54).
 ...
 ```
 
-## 🚀 Possíveis evoluções
-
-- Expor os mesmos casos de uso como uma API REST (Spring Boot), reaproveitando
-  as classes de domínio como estão;
-- Persistir os pedidos em banco de dados em vez de mantê-los em memória;
-- Adicionar um padrão **State** para tornar as transições de `StatusPedido`
-  mais explícitas (hoje elas são controladas pelo `GerenciadorPedido`).
-
 ---
 
-Projeto desenvolvido por **Hebert** como desafio final do bootcamp de
+Projeto desenvolvido por **Hebert Louvores** como desafio final do bootcamp de
 Padrões de Projeto.
