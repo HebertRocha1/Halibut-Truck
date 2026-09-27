@@ -151,4 +151,3 @@ Mais do que implementar os padrões individualmente, o desafio foi fazer com que
 
 **Hebert Louvores**
 
-Projeto desenvolvido como desafio final do bootcamp de Padrões de Projeto, com foco em Java e programação orientada a objetos.
