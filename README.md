@@ -1,6 +1,6 @@
 # Halibut Truck
 
-**Projeto final do bootcamp de Padrões de Projeto em Java.**
+**Projeto final do Padrões de Projeto em Java.**
 
 O Halibut Truck é uma aplicação desenvolvida em Java que simula o funcionamento de um food truck especializado em frutos do mar. A proposta do projeto foi aplicar os principais padrões de projeto a um cenário prático, utilizando como referência as operações do negócio, desde a montagem dos pedidos até o processamento do pagamento e o acompanhamento do preparo.
 
